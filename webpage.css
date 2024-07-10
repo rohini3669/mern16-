@@ -1,0 +1,89 @@
+html,
+body {
+  padding: 0%;
+  margin: 0%;
+}
+/*nav bar styling start*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  font-size: 23px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /*font-weight:400;*/
+  /*font-style:normal*/
+  position: fixed;
+  width: 100%;
+  height: 8%;
+  align-items: center;
+}
+.navbar > .nav-barnd {
+  font-size: 25px;
+  font-weight: 700;
+  font-variant-caps: all-small-caps;
+}
+.navbar-navlink {
+  /*bcz navbar is parent and navlink is child*/
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+/*nav bar styl end */
+.main-section {
+  padding-top: 1.8rem; /*position relative*/
+  background-image: url(./50125-alberta-canada-lake-mountains-rocks.jpg);
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+}
+.main-section > #main-sec-heading {
+  font-family: "roboto", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(142, 142, 220), rgb(21, 103, 103));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-section > #main-sec-heading > span {
+  background: -webkit-linear-gradient(purple, red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main-section > #main-para {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  color: beige;
+  padding: 0.3rem;
+  text-align: center;
+}
+.travel-section {
+  height: 12.3rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.navbar > .nav-brand {
+  font-weight: 700;
+  font-size: 8%;
+  align-items: center;
+}
+
+.navbar > .nav-link {
+  display: block;
+  text-align: right;
+}
+.main {
+  display: relative;
+}
+.main-section > #main-sec-heading {
+  font-size: 2.5rem;
+}
+.main-section > #main-para {
+  font-size: 1rem;
+}
+.travel-section {
+  width: 50%;
+  grid-template-columns: auto;
+}
+
+/*media queries for responding design*/
